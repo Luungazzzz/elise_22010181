@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('01_Common/TC_Common_01_motrinhduyet'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl('https://elise.vn/customer/account/login/')
 
 WebUI.setText(findTestObject('Pages/page_dangnhap/input_dntk'), '22010181@st.phenikaa-uni.edu.vn')

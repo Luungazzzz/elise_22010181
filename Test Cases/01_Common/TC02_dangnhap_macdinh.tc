@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_dangnhap_macdinh</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22f14fc2-e28e-410c-a6e1-0a17ab2d02bf</testCaseGuid>
+</TestCaseEntity>

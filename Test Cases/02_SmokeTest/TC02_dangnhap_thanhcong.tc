@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_dangnhap_thanhcong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6090e8d1-1958-4b06-8688-ca2e921a8062</testCaseGuid>
+</TestCaseEntity>

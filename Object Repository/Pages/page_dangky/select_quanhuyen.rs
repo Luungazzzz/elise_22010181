@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_quanhuyen</name>
+   <tag></tag>
+   <elementGuidId>d47fe97f-e081-47c5-9fa7-cb552f1e0ce6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#region_id</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'region_id']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Quận/Huyện&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>35b9737d-c358-4e31-8dbe-e45825c3ea4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>region_id</value>
+      <webElementGuid>f12b2872-5f5f-4e78-ad12-a5bee520e228</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>region_id</value>
+      <webElementGuid>55aabe71-44d8-4104-a082-7310e2db0fb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select-text</value>
+      <webElementGuid>1b1dd1f3-2816-4aa8-8228-323a86c1803f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-validate</name>
+      <type>Main</type>
+      <value>{'validate-select':true}</value>
+      <webElementGuid>a28c2db5-f287-4e65-ba60-e71d2b574581</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b76e797c-d071-4904-83a3-b0ba3850861c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        Vui lòng quận/huyện của bạn
+                    Bắc NinhGia BìnhLương TàiQuế VõThuận ThànhTiên DuTừ SơnYên Phong</value>
+      <webElementGuid>6134e776-b666-40d1-b513-4f2c6b6dddf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0adae68f0de69c45404f64407fa037aa</value>
+      <webElementGuid>d0b4abc6-85f9-444a-8bb0-18db2ee56486</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'region_id']</value>
+      <webElementGuid>b7aae8ea-c109-4499-a36b-e86149cdffca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'region_id']</value>
+      <webElementGuid>911ab61b-88e3-406c-9530-f1d83f8e77a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'region_id' and @id = 'region_id' and (text() = '
+                        Vui lòng quận/huyện của bạn
+                    Bắc NinhGia BìnhLương TàiQuế VõThuận ThànhTiên DuTừ SơnYên Phong' or . = '
+                        Vui lòng quận/huyện của bạn
+                    Bắc NinhGia BìnhLương TàiQuế VõThuận ThànhTiên DuTừ SơnYên Phong')]</value>
+      <webElementGuid>c4e79936-b8e9-4f73-ae11-f086b0778454</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

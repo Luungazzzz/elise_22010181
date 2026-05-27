@@ -12,38 +12,45 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>566382e2-6558-4d06-b570-1b8d977cee9a</testSuiteGuid>
    <testCaseLink>
-      <guid>ed4e7e59-7944-49bd-9b22-0335ef15db08</guid>
+      <guid>b69cd25d-7900-4715-af8c-bfb146cc5f02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/02_SmokeTest/TC01_motrangweb</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fa45360-cfe9-47db-a07c-05f09c9145bc</guid>
+      <guid>0506e672-ce29-43c3-9c7a-39ce237b373f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/02_SmokeTest/TC02_dangnhap_thanhcong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f6a29cba-5418-40bb-b9f3-ee981b512002</guid>
+      <guid>5d395df7-e73a-4e4c-9b65-a0116c84ceb2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/02_SmokeTest/TC_them_giohang</testCaseId>
+      <testCaseId>Test Cases/02_SmokeTest/TC03_timkiem_sp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>84abc606-b3f7-4801-92eb-75d051be121b</guid>
+      <guid>3d18341f-bce1-40ba-808b-677b5ec04376</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/02_SmokeTest/TC_timkiem_sp</testCaseId>
+      <testCaseId>Test Cases/02_SmokeTest/TC04_xem_chitiet_sanpham</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4485cc87-8811-4423-9147-552e62625ce6</guid>
+      <guid>43690794-74d1-4b8a-aa11-7e2acff5b88a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/02_SmokeTest/TC_xem_va_capnhap_gio</testCaseId>
+      <testCaseId>Test Cases/02_SmokeTest/TC05_them_sanpham</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68efa70b-d257-44c7-b632-78164d27bd50</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/02_SmokeTest/TC06_xem_giohang_va_capnhap_giohang</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

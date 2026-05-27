@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click_sp_dautien</name>
+   <name>tit_xacnhan_chitiet_sp</name>
    <tag></tag>
-   <elementGuidId>2980ce1d-0cdf-4ad1-b1ab-11c3b9c43547</elementGuidId>
+   <elementGuidId>9188bc96-c03b-45e1-ba43-032fe774b18f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[contains(@class,'product-image-wrapper')]//img)[1]/ancestor::a</value>
+         <value>//*[@class=&quot;product-name&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

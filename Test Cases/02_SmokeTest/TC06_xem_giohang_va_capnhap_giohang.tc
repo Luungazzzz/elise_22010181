@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_xem_giohang_va_capnhap_giohang</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e04d042-61f1-4a9e-a02d-a9d3ed7c8322</testCaseGuid>
+</TestCaseEntity>

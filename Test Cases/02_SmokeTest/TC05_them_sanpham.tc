@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_xem_va_capnhap_gio</name>
+   <name>TC05_them_sanpham</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3e04d042-61f1-4a9e-a02d-a9d3ed7c8322</testCaseGuid>
+   <testCaseGuid>ab233592-97c3-4007-a635-07ae5c3df7cd</testCaseGuid>
 </TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_them_giohang</name>
+   <name>TC03_timkiem_sp</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b648cb12-669c-438a-b971-47abc4ec508a</testCaseGuid>
+   <testCaseGuid>4f969edf-299a-44b9-b9ca-669df2b5ca87</testCaseGuid>
 </TestCaseEntity>

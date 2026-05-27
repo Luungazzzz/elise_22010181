@@ -1,0 +1,33 @@
+name: Katalon Smoke Test Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  
+  # Giữ lại để có nút bấm tự chạy bằng tay trên GitHub Actions
+  workflow_dispatch:
+
+jobs:
+  smoke-test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Katalon Smoke Test Suite
+        uses: katalon-studio/katalon-studio-github-action@v4.0
+        with:
+          version: '11.1.3'
+          projectPath: '${{ github.workspace }}/elise_22010181' 
+          args: >
+            -noSplash 
+            -retry=1
+            -testSuitePath="Test Suites/TS_smoke_test/TS_smoke_test"
+            -apiKey=${{ secrets.KATALON_API_KEY }}
+            -projectId=${{ secrets.KATALON_PROJECT_ID }}
+            --config -webui.autoUpdateDrivers=true
+            -browserType="Chrome"
+            -executionProfile="default"

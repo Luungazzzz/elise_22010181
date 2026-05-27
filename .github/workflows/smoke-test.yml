@@ -2,29 +2,40 @@ name: Katalon Smoke Test Pipeline
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, develop ]
   pull_request:
     branches: [ main, master ]
-  workflow_dispatch:
+  workflow_dispatch:                    # Cho phép chạy thủ công (rất tốt để demo bảo vệ)
 
 jobs:
   smoke-test:
-    runs-on: ubuntu-latest
+    name: Run Katalon Smoke Test
+    runs-on: windows-latest               # ← GIẢI PHÁP CHÍNH: Dùng Windows để tránh lỗi display
 
     steps:
-      - name: Checkout code
+      - name: Checkout Source Code
         uses: actions/checkout@v4
 
-      - name: Katalon Studio GitHub Action
+      - name: Run Katalon Smoke Test
         uses: katalon-studio/katalon-studio-github-action@v4.0
         with:
-          version: '11.1.3'
+          version: '11.1.3'                          # Phiên bản bạn đang dùng
           projectPath: '${{ github.workspace }}'
           args: >
             -noSplash 
-            -retry=1
+            -retry=0 
             -testSuitePath="Test Suites/TS_smoke_test/TS_smoke_test"
             -apiKey=${{ secrets.KATALON_API_KEY }}
             -projectId=${{ secrets.KATALON_PROJECT_ID }}
-            -browserType="Chrome (headless)"
+            -browserType="Chrome"
             -executionProfile="default"
+            --config -webui.autoUpdateDrivers=true
+            -reportFolder="Reports/Smoke_Test_${{ github.run_number }}"
+
+      - name: Upload Smoke Test Reports
+        uses: actions/upload-artifact@v4
+        if: always()                            # Luôn upload report dù pass hay fail
+        with:
+          name: katalon-smoke-test-reports
+          path: Reports/
+          retention-days: 14

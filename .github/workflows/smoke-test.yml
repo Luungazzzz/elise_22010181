@@ -26,5 +26,5 @@ jobs:
             -testSuitePath="Test Suites/TS_smoke_test/TS_smoke_test"
             -apiKey=${{ secrets.KATALON_API_KEY }}
             -projectId=${{ secrets.KATALON_PROJECT_ID }}
-            -browserType="Chrome"
+            -browserType="Chrome (headless)"
             -executionProfile="default"

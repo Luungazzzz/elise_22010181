@@ -11,32 +11,29 @@ jobs:
   smoke-test:
     name: Run Katalon Smoke Test
     runs-on: windows-latest
+    timeout-minutes: 45
 
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Run Katalon Smoke Test
         uses: katalon-studio/katalon-studio-github-action@v4.0
         with:
-          version: '11.1.3'
+          version: '10.1.0'                    # Khuyến nghị dùng phiên bản ổn định
           projectPath: '${{ github.workspace }}'
           args: >
-            -noSplash
-            -retry=0
+            -noSplash 
+            -runMode=console
+            -retry=0 
             -testSuitePath="Test Suites/TS_smoke_test/TS_smoke_test"
+            -browserType="Chrome (headless)"
             -apiKey=${{ secrets.KATALON_API_KEY }}
-            -projectId=${{ secrets.KATALON_PROJECT_ID }}
-            -browserType="Chrome"
+            -orgId=${{ secrets.KATALON_ORG_ID }}
+            -testOpsProjectId=${{ secrets.KATALON_PROJECT_ID }}
             -executionProfile="default"
             --config -webui.autoUpdateDrivers=true
-            --config -webui.autoSaveElements=true
+            --config -webui.userDataDir=/tmp/chrome-user-data
             -reportFolder="Reports/Smoke_Test_${{ github.run_number }}"
-
-      - name: Upload Smoke Test Reports
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: katalon-smoke-test-reports
-          path: Reports/
-          retention-days: 14
